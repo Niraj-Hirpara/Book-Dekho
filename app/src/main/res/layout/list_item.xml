@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_margin="6dp"
+        android:layout_marginBottom="13dp"
+        android:background="#E69723" >
+
+        <ImageView
+            android:id="@+id/small_icon"
+            android:layout_width="25dp"
+            android:layout_height="27dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="5dp"
+            android:contentDescription="icon"
+            android:src="@drawable/ic_chemical" />
+
+        <TextView
+            android:id="@+id/branch_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="12dp"
+            android:layout_toRightOf="@id/small_icon"
+            android:fontFamily="monospace"
+            android:text="Branch Name"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/branch_image"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_below="@id/branch_name"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/chemical_img" />
+
+        <Button
+            android:id="@+id/first_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/branch_name"
+            android:layout_marginLeft="33dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toRightOf="@id/branch_image"
+            android:background="@color/white"
+            android:text="1st Year"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/second_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first_button"
+            android:layout_alignLeft="@id/first_button"
+            android:layout_marginBottom="3dp"
+            android:layout_toRightOf="@id/branch_image"
+            android:background="@color/white"
+            android:text="2nd Year"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/third_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second_button"
+            android:layout_alignLeft="@id/first_button"
+            android:layout_marginBottom="3dp"
+            android:layout_toRightOf="@id/branch_image"
+            android:background="@color/white"
+            android:text="3rd Year"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/fourth_button_chemical"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/third_button"
+            android:layout_alignLeft="@id/first_button"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/branch_image"
+            android:background="@color/white"
+            android:text="4th Year"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

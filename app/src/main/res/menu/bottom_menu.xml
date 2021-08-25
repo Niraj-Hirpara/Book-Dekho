@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/fragment_home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home" />
+
+    <item android:id="@+id/fragment_order"
+        android:title="@string/my_order"
+        android:icon="@drawable/ic_order_pad" />
+
+    <item android:id="@+id/fragment_add"
+        android:title="@string/add_book"
+        android:icon="@drawable/ic_add" />
+
+    <item android:id="@+id/fragment_help"
+        android:title="@string/help"
+        android:icon="@drawable/ic_help" />
+
+    <item android:id="@+id/fragment_profile"
+        android:title="@string/my_profile"
+        android:icon="@drawable/ic_profile" />
+</menu>
